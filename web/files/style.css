@@ -1,0 +1,79 @@
+body {
+    font-family: "Montserrat", Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+input, textarea, p {
+    font-weight: 300;
+}
+
+header#query {
+    position: relative;
+    overflow: hidden;
+    text-align: left !important;
+}
+
+header#query:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: "";
+    background: rgb(102, 95, 238);
+    background: linear-gradient(45deg, rgb(102, 95, 238) 0%, rgb(39, 194, 222) 100%);
+    opacity: 1;
+    height: 700px;
+}
+
+header#query .heading {
+    font-size: 62px;
+    color: white;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+header#query .sub-heading {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 600px;
+    float: left;
+}
+
+header#query > .container {
+    position: relative;
+}
+header#query > .container > .row {
+    height: 600px;
+}
+
+nav ul > li > a {
+    color: white !important;
+}
+
+.offset {
+    position: absolute;
+    top: -30px;
+    right: 0;
+    left: 0;
+    margin-inline: auto;
+}
+
+#response {
+    background-color: rgb(242, 244, 249) !important;
+    padding: 9em 0;
+    position: relative;
+    display: block;
+    height: 45vh;
+}
+
+#json {
+    height: 45vh;
+}
+
+.drop-shadow {
+    padding: 50px;
+    box-shadow: 1px 11px 68px -20px rgba(0, 0, 0, 0.75);
+}
+
